@@ -7,8 +7,6 @@ public class Person {
 	private String standort;
 	private String geschlecht;
 	
-	
-	
 	public Person(String name, int age, String standort, String geschlecht) {
 		super();
 		this.name = name;
