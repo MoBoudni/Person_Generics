@@ -1,19 +1,22 @@
 package de.generics;
 
 public class Person {
-	
+
+	// Attribute
 	private String name;
 	private int age;
 	private String standort;
 	private String geschlecht;
-	
+
+        // Konstruktor
 	public Person(String name, int age, String standort, String geschlecht) {
 		super();
 		this.name = name;
 		this.age = age;
 		this.standort = standort;
 		this.geschlecht = geschlecht;
-		
+
+        // Getter und Setter
 	}
 	public String getName() {
 		return name;
@@ -27,5 +30,4 @@ public class Person {
 	public String getGeschlecht() {
 		return geschlecht;
 	}
-
 }
